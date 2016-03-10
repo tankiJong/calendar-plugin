@@ -1,0 +1,11 @@
+{
+  "name": "calendar-plugin",
+  "version": "0.0.0",
+  "authors": [
+    "Tanki <tanki_jong@hotmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT"
+}
