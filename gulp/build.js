@@ -18,10 +18,6 @@ gulp.task('partials', function () {
       spare: true,
       quotes: true
     }))
-    .pipe($.angularTemplatecache('templateCacheHtml.js', {
-      module: 'daocloudDce',
-      root: 'app'
-    }))
     .pipe(gulp.dest(conf.paths.tmp + '/partials/'));
 });
 

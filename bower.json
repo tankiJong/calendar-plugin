@@ -4,8 +4,13 @@
   "authors": [
     "Tanki <tanki_jong@hotmail.com>"
   ],
-  "moduleType": [
-    "es6"
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/tankiJong/calendar-plugin",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

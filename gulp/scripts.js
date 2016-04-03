@@ -44,7 +44,13 @@ function webpackWrapper(watch, test, callback) {
         { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file' },
         { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' },
         { test: /\.css$/, loader: 'style-loader!css-loader' }
-      ]
+      ],
+      vue:{
+        loaders:{
+          css: 'sass',
+        },
+        autoprefixer: true,
+      }
     },
     output: {
       filename: 'bundle.js'
